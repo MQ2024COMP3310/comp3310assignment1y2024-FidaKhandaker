@@ -39,7 +39,7 @@ public class Board {
 
         grid = new Grid(8,8, movesDatabaseConnection);
         setNewGame();
-        try (BufferedReader br = new BufferedReader(new FileReader("resources/data.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("app/resources/data.txt"))) {
             String line;
             
             System.out.println("Processing resources/data.txt");

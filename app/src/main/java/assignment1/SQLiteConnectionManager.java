@@ -29,7 +29,7 @@ public class SQLiteConnectionManager {
      */
     public SQLiteConnectionManager(String filename)
     {
-        databaseURL = "jdbc:sqlite:sqlite/" + filename;
+        databaseURL = "jdbc:sqlite:app/sqlite/" + filename;
     }
 
     /**
